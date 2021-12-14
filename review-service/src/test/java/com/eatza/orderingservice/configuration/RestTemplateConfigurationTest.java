@@ -9,7 +9,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.RestTemplate;
 
-import com.eatza.order.config.RestTemplateClient;
+import com.eatza.review.config.RestTemplateClient;
 
 @RunWith(SpringRunner.class)
 @ContextConfiguration(classes=RestTemplateClient.class)

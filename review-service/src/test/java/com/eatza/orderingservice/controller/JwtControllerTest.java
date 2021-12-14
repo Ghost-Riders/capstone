@@ -15,9 +15,9 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-import com.eatza.order.controller.JwtAuthenticationController;
-import com.eatza.order.dto.UserDto;
-import com.eatza.order.service.authenticationservice.JwtAuthenticationService;
+import com.eatza.review.controller.JwtAuthenticationController;
+import com.eatza.review.dto.UserDto;
+import com.eatza.review.service.authenticationservice.JwtAuthenticationService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @RunWith(SpringRunner.class)

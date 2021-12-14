@@ -8,9 +8,9 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.eatza.order.dto.UserDto;
-import com.eatza.order.exception.UnauthorizedException;
-import com.eatza.order.service.authenticationservice.JwtAuthenticationService;
+import com.eatza.review.dto.UserDto;
+import com.eatza.review.exception.UnauthorizedException;
+import com.eatza.review.service.authenticationservice.JwtAuthenticationService;
 
 @RunWith(SpringRunner.class)
 public class JwtAuthenticationServiceTest {
